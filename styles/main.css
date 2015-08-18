@@ -1,0 +1,121 @@
+/* CURRENTLY IN: styles/main.css */
+html {
+	font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.nav {
+	padding: 1rem 4rem;
+	background-color: black;
+	color: white;
+	font-size: 4rem;
+	border-bottom: 4px solid yellow;
+	display: inline-block;
+	width: 96.5%;
+}
+
+.header {
+	float: left;
+    color: yellow;
+    font-family: 'Merriweather', serif;
+}
+
+.header__nav {
+	background-color: black;
+	color: white;
+	font-size: 2.5rem;
+	list-style: none;
+	float: right;
+	vertical-align: center;
+}
+
+.horizontal {
+		display: inline;
+}
+
+.tagline {
+	font-family: 'Merriweather';
+    text-align: center;
+    padding: 3rem;
+    font-style: italic;
+    background: #C6C6C6;
+    border-top: 1px solid black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.splash {
+	padding: 4rem 6rem;
+	box-sizing: border-box;
+	padding: 22rem 4rem;
+	background-image: url(../images/coworking.jpg);
+
+
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+	padding: 4rem 6rem;
+	box-sizing: border-box;
+}
+
+.boxes {
+	display: block;
+}
+
+.box {
+	font-size: 2rem;
+	display: block;
+	float: left;
+    width: 27.3333%;
+    padding: 2rem 3rem;
+}
+
+.content__box--small {
+	font-size: 1.1rem;
+	display:inline-block;
+}
+
+.button {
+	padding: 1rem 7rem;
+	background-color: lightgray;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: bold;
+	display:inline-block;
+}
+
+.footer {
+	padding: 4rem 6rem;
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+	font-size: 2rem;
+}
+
+
+.slide {
+	padding: 4rem 6rem;
+	box-sizing: border-box;
+
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    min-height: 500px;
+}
+
+.slide__logo {
+	font-size: 4.2rem;
+
+	font-weight: 600;
+	color: #fff;
+}
+
+.slide--home {
+	background-image: url(../assets/relaxr_header_bg.jpg);
